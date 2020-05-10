@@ -75,7 +75,7 @@ h1:hover,h2:hover,h3:hover{
 #overview,
 #register {
   padding-top: 14rem;
-  padding-bottom: 14rem;
+  padding-bottom: 10rem;
 }
 
 #detail, #video,
@@ -622,6 +622,16 @@ height: auto;
     background-position: center center;
     padding-top: 7rem;
     padding-bottom: 7rem;
+    position: relative;
+}
+#venue:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background: rgba(0,0,0,0.7);
 }
 
 #venue p {
@@ -640,7 +650,7 @@ height: auto;
 
 #venue ol li {
   display: block;
-  color: #707070;
+  color: #f1f1f1;
 }
 
 #venue ol li:before {
@@ -658,7 +668,7 @@ height: auto;
 }
 
 #venue ul li{
-  color: #707070;
+  color: #f1f1f1;
   display: block;
 }
 
